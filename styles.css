@@ -1,124 +1,46 @@
 body {
-  background-color: rgb(209, 214, 228);
-  font-family: sans-serif;
-  color: rgb(39, 44, 45);
-}
-
-h1, h2, h3 {
-  font-family: monospace;
-  line-height: 2;
-  color: rgb(75, 80, 208);
-  font-weight: 700;
-
-}
-h4 {
-  font-family: monospace;
-  line-height: 2;
-  color: rgb(22, 23, 41);
-
-}
-li{
+  background-color: rgb(196, 230, 233);
+  font-size: 2rem;
+  color: rgb(16, 17, 15);
   font-weight: 600;
+  font-family: 'Arimo', sans-serif;
 }
-
-hr {
-  border: 2px dotted rgb(31, 28, 32);
-  margin: 4% 40% 4% 40%;
-
+h1, h2, h3, h4 {
+font-family: 'Work Sans', sans-serif;
+color: rgb(50, 96, 236);
+font-size: 3rem;
+line-height: 2;
 }
-                                        /* main page */
-
-/* navbar */
-
-.company {
-font-family: fantasy;
-color:  rgb(75, 80, 208);
-font-size: 2rem;
-padding-left: 3rem;
+/* font-family: 'Arimo', sans-serif;
+font-family: 'Work Sans', sans-serif */
+.logo {
+  height: 150px
 }
-
-
-.fas{
-color: rgb(65, 104, 172);
+.fas {
+  color:rgb(48, 175, 238);
 }
-
-
-/* the banner */
-#carouselExampleControls{
-  margin: 0 10% 0 10%;
+/* banner carousel */
+/* transition: transform 2s ease, opacity .5s ease-out). */
+#carouselExampleCaptions {
+  margin: 0 4%;
+  transition: transform 2s ease, opacity .5s ease-out;
 }
-.carousel-img{
-  height: 500px;
-  width: 100%;
-  border: 5px solid rgb(123, 170, 241);
-  margin-bottom: 5%;
-
-
-}
-
 /* main section */
-#expertise {
-  margin: 0 10%;
+ .image5 {
+  width: 80vw;
 }
-
-.p-1{
-  line-height: 1.5;
-  font-weight: 600;
-  /* margin-left: 6%; */
-}
-.image5{
- margin-left: 14%;
- margin-top: 18%;
- border: 5px solid rgb(123, 170, 241);
- margin-bottom: 2%;
-
-}
-
 /* footer */
 
-.footer {
-  background-color: #f5f5f5;
-  margin-top: 2%;
-  padding-top: 4%;
+#footer {
+  background-color: rgb(217, 223, 230);
+  margin-top: 5%;
+  padding-bottom: 4%;
 }
-.p-2 {
-  padding: 0 5% 0 5%;
-  color: rgb(120, 128, 119);
-  font-weight: 600;
-  font-family: cursive;
+.cl {
+  margin-top: 5%;
 }
-.contact {
-  color:rgb(120, 128, 119);
-  font-family: cursive;
-
-
-}
-.logo {
-  height: 70px;
-}
-.cl{
-  padding: 0 5% 0 5%;
+/* conatct html */
+.map{
+  width: 90%;
 }
 
-                                 /* media query */
-@media only screen and (max-width:993px){
- .image5 {
-   width: 80%;
-   margin: 5% 8%;
-   height: 200px;
-}
-hr {
-  display: none;
-}
-.carousel-img {
-  height: 200px;
-}
-.container{
-  margin:0 2%;
-}
-.image6{
-  width: 160%;
-}
-
-
-                                        /* contact.html */
