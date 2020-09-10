@@ -107,14 +107,18 @@ color: rgb(65, 104, 172);
 
                                  /* media query */
 @media only screen and (max-width:993px){
-h1, h2, h3, h4{
-  font-size: 4.8em;
+.logo {
+  height: 200px;
+}
+  h1, h2, h3, h4{
+  font-size: 4rem;
+  line-height: 1.4;
 }
 hr {
   display: none;
 }
 li {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
@@ -134,7 +138,7 @@ li {
 }
 
 .p-1, .p-2, .contact {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
 
  }
